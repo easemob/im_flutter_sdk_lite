@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:im_flutter_sdk_lite/im_flutter_sdk_lite.dart';
 
-var appKey = "easemob#easeim";
+var appKey = "";
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
