@@ -726,4 +726,3 @@ class EMChatRoomEventHandler {
 /// EMClient.getInstance.chatThreadManager.removeEventHandler(UNIQUE_HANDLER_ID);
 /// ```
 /// ~end
-

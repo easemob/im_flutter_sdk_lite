@@ -42,14 +42,18 @@ class ChatMethodKeys {
   static const String downloadAttachment = "downloadAttachment";
   static const String downloadThumbnail = "downloadThumbnail";
 
-  static const String fetchHistoryMessagesByOptions = "fetchHistoryMessagesByOptions";
+  static const String fetchHistoryMessagesByOptions =
+      "fetchHistoryMessagesByOptions";
   static const String deleteRemoteConversation = "deleteRemoteConversation";
-  static const String removeMessagesFromServerWithTs = "removeMessagesFromServerWithTs";
+  static const String removeMessagesFromServerWithTs =
+      "removeMessagesFromServerWithTs";
 
-  static const String getConversationsFromServerWithCursor = 'getConversationsFromServerWithCursor';
-  static const String getPinnedConversationsFromServerWithCursor = 'getPinnedConversationsFromServerWithCursor';
+  static const String getConversationsFromServerWithCursor =
+      'getConversationsFromServerWithCursor';
+  static const String getPinnedConversationsFromServerWithCursor =
+      'getPinnedConversationsFromServerWithCursor';
   static const String pinConversation = 'pinConversation';
-  
+
   /// EMChatManager listener
   static const String onMessagesReceived = "onMessagesReceived";
   static const String onCmdMessagesReceived = "onCmdMessagesReceived";
@@ -74,29 +78,37 @@ class ChatMethodKeys {
   /// EMChatRoomManager methods
   static const String joinChatRoom = "joinChatRoom";
   static const String leaveChatRoom = "leaveChatRoom";
-  static const String fetchPublicChatRoomsFromServer = "fetchPublicChatRoomsFromServer";
-  static const String fetchChatRoomInfoFromServer = "fetchChatRoomInfoFromServer";
+  static const String fetchPublicChatRoomsFromServer =
+      "fetchPublicChatRoomsFromServer";
+  static const String fetchChatRoomInfoFromServer =
+      "fetchChatRoomInfoFromServer";
   static const String getChatRoom = "getChatRoom";
   static const String getAllChatRooms = "getAllChatRooms";
 
   static const String fetchChatRoomMembers = "fetchChatRoomMembers";
 
   static const String fetchChatRoomAnnouncement = "fetchChatRoomAnnouncement";
+
   /// EMChatRoomManagerListener
   static const String chatRoomChange = "onChatRoomChanged";
 
   /// HandleAction
   static const String startCallback = "startCallback";
 
-  static const String conversationDeleteServerMessageWithTime = 'conversationDeleteServerMessageWithTime';
-  static const String updateUsingHttpsOnlySetting = 'updateUsingHttpsOnlySetting';
-  
-  static const String updateDeleteMessageWhenLeaveRoomSetting = 'updateDeleteMessageWhenLeaveRoomSetting';
-  static const String updateRoomOwnerCanLeaveSetting = 'updateRoomOwnerCanLeaveSetting';
+  static const String conversationDeleteServerMessageWithTime =
+      'conversationDeleteServerMessageWithTime';
+  static const String updateUsingHttpsOnlySetting =
+      'updateUsingHttpsOnlySetting';
 
-  static const String updateAutoDownloadAttachmentThumbnailSetting = 'updateAutoDownloadAttachmentThumbnailSetting';
+  static const String updateDeleteMessageWhenLeaveRoomSetting =
+      'updateDeleteMessageWhenLeaveRoomSetting';
+  static const String updateRoomOwnerCanLeaveSetting =
+      'updateRoomOwnerCanLeaveSetting';
+
+  static const String updateAutoDownloadAttachmentThumbnailSetting =
+      'updateAutoDownloadAttachmentThumbnailSetting';
   static const String updateRequireAckSetting = 'updateRequireAckSetting';
   static const String updateDeliveryAckSetting = 'updateDeliveryAckSetting';
-  static const String updateSortMessageByServerTimeSetting = 'updateSortMessageByServerTimeSetting';
-
+  static const String updateSortMessageByServerTimeSetting =
+      'updateSortMessageByServerTimeSetting';
 }
