@@ -1,4 +1,4 @@
-# 环信即时通讯 im_flutter_sdk 快速入门
+# 环信即时通讯 im_flutter_sdk_lite 快速入门
 
 通过本文可以实现一个集成聊天 SDK 的简单 app。
 
