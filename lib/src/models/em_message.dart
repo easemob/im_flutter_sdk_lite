@@ -847,8 +847,7 @@ class EMMessage {
         body = EMVoiceMessageBody.fromJson(map: map);
         break;
 
-      default:
-    }
+      }
 
     return body;
   }
